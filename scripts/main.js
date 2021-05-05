@@ -1,6 +1,7 @@
 //why bother
 let scripts = [
   "nukeunits",
+  "amogus",
 ];
 
 scripts.forEach(e => {
