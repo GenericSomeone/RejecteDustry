@@ -1,0 +1,19 @@
+type: mech
+weapons: [
+{
+  reload: 1
+  shootSound: explosion
+  shootCone: 360
+  ignoreRotation: true
+  x: 0
+  y: 0
+  mirror: false 
+  bullet: {
+    type: BombBulletType
+    lifetime: 0
+    damage: 1250
+    killShooter: true
+    hittable: false
+  }
+}
+]
