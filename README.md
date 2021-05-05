@@ -10,9 +10,13 @@ Don't get me wrong: I love suggestions, and I personally think they are a great 
 # Rules
 
 Ideas are "credited" in the following format:
-\nSuggested By: <name of person who suggested the original idea, not the one who reported the idea to me>
-\nOriginal Mod: <original mod that the idea was rejected from before it ended up here>
-\nImplemented By: <name(s) of people who coded the idea, if this field is absent, it was made by me>
+
+Suggested By: <name of person who suggested the original idea, not the one who reported the idea to me>
+
+Original Mod: <original mod that the idea was rejected from before it ended up here>
+
+Implemented By: <name(s) of people who coded the idea, if this field is absent, it was made by me>
+
 <text to describe any deviation from the original concept, if applicable>
 
 Troll ideas intentionally made to be stupid will NOT be taken. The point of this mod is to get people to improve their suggestions. Trolls won't listen. However, I will be giving a very generous amount of leeway until I consider an idea to be a troll.
