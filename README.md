@@ -7,7 +7,7 @@ This repo is made entirely of low effort suggestions that people think are uniro
 
 Don't get me wrong: I love suggestions, and I personally think they are a great way for a mod author to reach out to their community. Interacting with your fanbase is never a bad thing. That said, some suggestions make me want to bang my head repeatedly on a concrete wall. Suggestions made with effort that simply don't fit into the mod well enough are one thing, but suggestions that give no regard to quality whatsoever are another.
 
-# Name Tracking
+# Crediting
 
 Ideas are "credited" in the following format:
 
