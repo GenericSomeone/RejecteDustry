@@ -19,6 +19,7 @@ Implemented By: <name(s) of people who coded the idea, if this field is absent, 
 
 <text to describe any deviation from the original concept, if applicable>
 
+
 Troll ideas intentionally made to be stupid will NOT be taken. The point of this mod is to get people to improve their suggestions. Trolls won't listen. However, I will be giving a very generous amount of leeway until I consider an idea to be a troll.
 
 Any suggestions (purposely stupid or otherwise) made specifically for this mod will NOT be taken, as they go against the spirit and purpose of the mod. All ideas in the mod must have been rejected from at least one other content mod.
