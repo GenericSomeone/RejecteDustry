@@ -11,9 +11,12 @@ Don't get me wrong: I love suggestions, and I personally think they are a great 
 
 Ideas are "credited" in the following format:
 
-\Suggested By: \<name of person who suggested the original idea, not the one who reported the idea to me\>
-\Original Mod: \<content mod that the idea was rejected from before it ended up here\>
-\Implemented By: \<name(s) of people who coded the idea, if this field is absent, it was made by me\>
+Suggested By: \<name of person who suggested the original idea, not the one who reported the idea to me\>
+
+Original Mod: \<content mod that the idea was rejected from before it ended up here\>
+
+Implemented By: \<name(s) of people who coded the idea, if this field is absent, it was made by me\>
+
 \<text to describe any deviation from the original concept, if applicable\>
 
 # Rules
