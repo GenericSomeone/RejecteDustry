@@ -15,9 +15,11 @@ Suggested By: \<name of person who suggested the original idea, not the one who 
 
 Original Mod: \<content mod that the idea was rejected from before it ended up here\>
 
+\<text to describe any deviation from the original concept, if applicable\>
+
 Implemented By: \<name(s) of people who coded the idea, if this field is absent, it was made by me\>
 
-\<text to describe any deviation from the original concept, if applicable\>
+Found By: \<name of person who passed the idea onto me, if this field is absent, it was found by me\>
 
 # Rules
 
