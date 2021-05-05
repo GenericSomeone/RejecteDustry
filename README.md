@@ -7,16 +7,19 @@ This repo is made entirely of low effort suggestions that people think are uniro
 
 Don't get me wrong: I love suggestions, and I personally think they are a great way for a mod author to reach out to their community. Interacting with your fanbase is never a bad thing. That said, some suggestions make me want to bang my head repeatedly on a concrete wall. Suggestions made with effort that simply don't fit into the mod well enough are one thing, but suggestions that give no regard to quality whatsoever are another.
 
-# Rules
+# Name Tracking
 
 Ideas are "credited" in the following format:
 
 Suggested By: <name of person who suggested the original idea, not the one who reported the idea to me>
 
+Original Mod: <content mod that the idea was rejected from before it ended up here>
+
 Implemented By: <name(s) of people who coded the idea, if this field is absent, it was made by me>
 
 <text to describe any deviation from the original concept, if applicable>
 
+# Rules
 
 Troll ideas intentionally made to be stupid will NOT be taken. The point of this mod is to get people to improve their suggestions. Trolls won't listen. However, I will be giving a very generous amount of leeway until I consider an idea to be a troll.
 
