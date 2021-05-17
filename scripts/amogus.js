@@ -1,3 +1,5 @@
+const refresh = require("libraries/refresh");
+
 // tweak to whatever you want
 let killRange = 480;
 let killCooldown = 0;
@@ -70,7 +72,9 @@ amogus.constructor = () => extend(MechUnit, {
         this.killCooldown--;
         this.killCooldown = Mathf.clamp(this.killCooldown, 0, killCooldown);
     },
+classId: () => amogus.classId
 });
+refresh(amogus);
 
 // code length > readability
 // this weapon doesnt even need to fire anything, but it needs a bullet to work
