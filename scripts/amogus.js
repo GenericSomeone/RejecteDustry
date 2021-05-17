@@ -31,7 +31,10 @@ let amogus = extend(UnitType, "amogus", {
     hitSize: 16,
     speed: 1,
     drawCell: false,
+    killCooldown: 0,
+});
 
+amogus.constructor = () => extend(MechUnit, {
     init(){
         if(!this) return;
         this.super$init()
@@ -39,32 +42,35 @@ let amogus = extend(UnitType, "amogus", {
         this.target = null;
     },
 
-    update(u){
-        let aimX = Math.floor(u.mounts[0].aimX);
-        let aimY = Math.floor(u.mounts[0].aimY);
-        let relativeX = aimX - u.x;
-        let relativeY = aimY - u.y;
-        this.target = Units.closest(u.team, aimX, aimY, 8, t => {
-            return (!t.dead && (t != u)) && Mathf.within(relativeX, relativeY, killRange);
-        });
+    update(){
+	this.super$update();
 
+	//there's a bug here where multiple enemies will screw with the targeting but at this point I don't even care anymore
+        let aimX = Math.floor(this.mounts[0].aimX);
+        let aimY = Math.floor(this.mounts[0].aimY);
+        let relativeX = aimX - this.x;
+        let relativeY = aimY - this.y;
+        Groups.unit.intersect(aimX, aimY, 8, 8, t => {
+    		if (!t.dead && t.team != this.team) {
+			if(this.isShooting && (t != null) && (this.killCooldown <= 0) && (Mathf.dst(this.x, this.y, t.aimX, t.aimY) <= killRange) ){
+            			this.vel.set(this.vel.x + (relativeX/2), this.vel.y + (relativeY/2));
+            			this.killCooldown = killCooldown;
+
+            			let angle = Angles.angle(this.x, this.y, t.x, t.y);
+            			slash.at(t.x, t.y, angle);
+				t.kill();
+        		}
+		}
+	});
+
+	if (this.killCooldown == null) {
+		this.killCooldown = 0;
+	}
+	
         this.killCooldown--;
         this.killCooldown = Mathf.clamp(this.killCooldown, 0, killCooldown);
-
-        // this can kill multiple units for some reason but i dont give a shit
-        if(u.isShooting && (this.target != null) && (this.killCooldown <= 0)){
-            this.target.kill();
-            u.vel.set(u.vel.x + (relativeX/2), u.vel.y + (relativeY/2));
-            this.killCooldown = killCooldown;
-
-            let angle = Angles.angle(u.x, u.y, this.target.x, this.target.y);
-            slash.at(this.target.x, this.target.y, angle);
-        }
     },
-
 });
-
-amogus.constructor = () => extend(MechUnit, {});
 
 // code length > readability
 // this weapon doesnt even need to fire anything, but it needs a bullet to work
