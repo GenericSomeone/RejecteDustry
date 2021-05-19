@@ -32,7 +32,7 @@ let amogus = extend(UnitType, "amogus", {
     health: 6969,
     hitSize: 16,
     speed: 1,
-    drawCell: false,
+    drawCell: true,
     killCooldown: 0,
 });
 
