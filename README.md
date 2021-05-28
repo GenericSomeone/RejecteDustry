@@ -29,7 +29,7 @@ Troll ideas intentionally made to be stupid will NOT be taken. The point of this
 
 Any suggestions (purposely stupid or otherwise) made specifically for this mod will NOT be taken, as they go against the spirit and purpose of the mod. All ideas in the mod must have been rejected from at least one other content mod.
 
-If I think an idea is well thought out and has potential, I will not be adding it here.
+If I think an idea is well thought out and has potential, I will not be adding it here. It belongs elsewhere.
 
 If you've rejected an idea for your content mod and you believe it to be stupid enough to make the hall of shame, you are more than welcome to report it to me. However, due to time and code constraints, even if the idea follows the above rules, it is not guaranteed that I will make it. That said, even if I do not end up making the idea due to said constraints, you are more than welcome to pull request and make the rejected suggestion yourself. I won't stop you.
 
