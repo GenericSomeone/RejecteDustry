@@ -1,6 +1,6 @@
 const refresh = require("libraries/refresh");
 
-const nuclearCrawler = extendContent(UnitType, "nuclear-crawler", {
+const nuclearCrawler = extend(UnitType, "nuclear-crawler", {
 	speed: 1,
 	hitSize: 8,
 	health: 180,
