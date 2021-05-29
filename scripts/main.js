@@ -2,6 +2,7 @@
 let scripts = [
   "nukeunits",
   "amogus",
+  "snas,"
 ];
 
 scripts.forEach(e => {
