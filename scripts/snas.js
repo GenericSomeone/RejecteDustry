@@ -89,7 +89,7 @@ const blaster = extendContent(UnitType, "blaster", {
 	flying: true,
 	shootStatusDuration: 30,
 	drawCell: false,
-	isCounted = false;
+	isCounted: false
 });
 
 blaster.constructor = () => extend(UnitEntity, {
