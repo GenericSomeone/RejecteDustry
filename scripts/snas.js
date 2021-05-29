@@ -4,7 +4,7 @@ const karma = extend(StatusEffect, "karma", {
 	update(unit, time){
 		this.super$update(unit, time);
 		const purpleLayer = new Effect(2, e => {
-			//increases the layer so that the purple mask draws over the unit instead of uncer it		
+			//increases the layer so that the purple mask draws over the unit instead of under it		
 			let drawingLayer = 0;
 			
 			if((!unit.isGrounded() && unit.hovering) || unit.flying){
