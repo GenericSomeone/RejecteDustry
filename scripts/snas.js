@@ -36,11 +36,11 @@ const karma = extend(StatusEffect, "karma", {
 		}
 	},
 
-	//
 	isHidden(){
 	        return true;
 	},
 
+        //the status effect doesn't actually do any base damage; all of it is done through update()
 	damage: 0,
 	color: Color.valueOf("ff00ff"),
 });
@@ -49,7 +49,7 @@ const karma = extend(StatusEffect, "karma", {
 
 //how many ticks until another blaster spawns
 let requiredCooldown = 15;
-//how far en enemy has to be until blasters start spawning
+//how close an enemy has to be to sans until blasters start spawning
 let targetRange = 280;
 //how far the blasters themselves can shoot
 let blasterRange = 300;
@@ -118,6 +118,7 @@ blaster.constructor = () => extend(UnitEntity, {
 		return true;
 	},
 
+        //we do this so that the number of blasters on the field is not limited by cores
 	cap(){
 		return Infinity;
 	},
