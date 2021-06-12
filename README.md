@@ -13,7 +13,7 @@ Ideas are "credited" in the following format:
 
 Suggested By: \<name of person who suggested the original idea, not the one who reported the idea to me\>
 
-Original Mod: \<content mod that the idea was rejected from before it ended up here\>
+Original Mod: \<content mod that the idea was rejected from before it ended up here, if this field is absent, it was found through discord and was not a suggestion to any particular mod\>
 
 Implemented By: \<name(s) of people who coded the idea, if this field is absent, it was made by me\>
 
